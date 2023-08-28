@@ -5,7 +5,7 @@ A repository just to practice some codes of variadic functions!
 
 Source video is from YouTube channel, you can watch video in the following link:
 
-[All you need to know about variadic functions (audio kinda suck)](https://www.youtube.com/watch?v=7Sph8JlRo0g&t=526s&ab_channel=Oceano){:target="_blank"}
+[All you need to know about variadic functions (audio kinda suck)](https://www.youtube.com/watch?v=7Sph8JlRo0g&t=526s&ab_channel=Oceano{:target="_blank"})
 
 ##
 
