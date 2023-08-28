@@ -6,7 +6,7 @@
 /*   By: vde-frei <vde-frei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 04:35:02 by vde-frei          #+#    #+#             */
-/*   Updated: 2023/08/27 05:03:47 by vde-frei         ###   ########.fr       */
+/*   Updated: 2023/08/27 21:45:17 by vde-frei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,10 @@
  * 'how many arguments are gonna be there'.
  * @note va_arg is like va_start. Receive the ap list, and the type
  * that we wanna retrieve, (is this example all type will be int).
+ * @note In following exercice you can use return type as float to get
+ * more number of average with more precision.
  */
-int	average(int n, ...)
+float	average(int n, ...)
 {
 	va_list	ap;
 	int	total;
@@ -49,14 +51,16 @@ int	average(int n, ...)
 		total += va_arg(ap, int);
 		++index;
 	}
-	return (total / n);
+	return ((float)total / n);
 }
 
 int	main()
 {
-	int	average_age;
+	float	average_age;
+	int	people;
 
-	average_age = average(5, 18, 45, 32, 19, 5);
-	printf("The average age of those 5 people is %d\n", average_age);
+	people = 7;
+	average_age = average(people, 10, 13, 18, 45, 32, 19, 5);
+	printf("The average age of those %d people is %f\n", people, average_age);
 	return (0);
 }
