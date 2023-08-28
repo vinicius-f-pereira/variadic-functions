@@ -6,7 +6,7 @@
 /*   By: vde-frei <vde-frei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 04:35:02 by vde-frei          #+#    #+#             */
-/*   Updated: 2023/08/27 21:45:17 by vde-frei         ###   ########.fr       */
+/*   Updated: 2023/08/27 23:50:14 by vde-frei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,3 +64,24 @@ int	main()
 	printf("The average age of those %d people is %f\n", people, average_age);
 	return (0);
 }
+
+/**
+ * Resuming this first file...
+ * va_list Is used to create argument 
+ * list (struct behind the scenario)
+ * va_start Initializes a va_list object that
+ * you can use to access each argument.
+ * va_arg Take the next argument. Yes, you need to put it
+ * in a while loop.
+ *
+ * va_list 'ap' < just need of param name and type to create.
+ *
+ * va_start (va_list ap, last) < last is the number of max arguments
+ * that you don't really know, so you need to insert a variable that
+ * will receive this number.
+ *
+ * va_arg (va_list ap, type) < type of variables that you'll work
+ * until here don't have any instructions in video how to do to work
+ * more than you type, probably in another file or here below will
+ * have this information.
+ */
