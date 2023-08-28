@@ -6,7 +6,7 @@
 /*   By: vde-frei <vde-frei@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/27 04:35:02 by vde-frei          #+#    #+#             */
-/*   Updated: 2023/08/27 23:50:14 by vde-frei         ###   ########.fr       */
+/*   Updated: 2023/08/27 23:54:06 by vde-frei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,6 @@ int	main()
  * until here don't have any instructions in video how to do to work
  * more than you type, probably in another file or here below will
  * have this information.
+ *
+ * va_end (va_list, ap) < end retrieving args (free up resources)
  */
